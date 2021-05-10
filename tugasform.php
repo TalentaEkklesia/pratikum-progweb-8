@@ -983,5 +983,10 @@ echo "<br>";
 //Menampilkan pesan sukses jika sudah berhasil menyimpan data
 echo $pesan_sukses;
 ?>
+<center>
+	<button onclick="location.href = 'cetakexcel.php';" id="cetak" class="btn btn-warning" > Cetak File Excel
+		
+	</button>
+</center>
 </body>
 </html>
